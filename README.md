@@ -1,2 +1,2 @@
-# arshad-demo
+# Arshad-demo
 Demo repository
