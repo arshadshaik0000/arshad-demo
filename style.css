@@ -1,0 +1,75 @@
+/* General Body Styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  color: #fff;
+}
+
+/* Header Styling */
+.header {
+  background-color: #202020;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ff0000;
+}
+
+.search input {
+  width: 300px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Main Content Styling */
+.main-content {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Video Card Styling */
+.video-card {
+  background-color: #282828;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-5px);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 180px;
+  background-color: #444;
+}
+
+.video-info {
+  padding: 12px;
+}
+
+.video-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.video-info p {
+  margin: 5px 0;
+  color: #bbb;
+}
